@@ -1,0 +1,28 @@
+{
+  "name": "azure-cosmosdb-sql-api-nodejs-getting-started",
+  "version": "0.0.0",
+  "description": "A short sample app to demonstrate how to get started with Azure Cosmos DB's SQL API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "3.5.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discrete-javascript/solize-admin-server.git"
+  },
+  "author": "Rajesh W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discrete-javascript/solize-admin-server/issues"
+  },
+  "homepage": "https://github.com/discrete-javascript/solize-admin-server#readme"
+}
